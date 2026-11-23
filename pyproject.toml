@@ -1,0 +1,22 @@
+[project]
+name = "mini-shazam"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "itahang", email = "hangita101@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.5",
+    "scipy>=1.18.1",
+    "soundfile>=0.14.0",
+    "tinytag>=2.3.2",
+]
+
+[project.scripts]
+mini-shazam = "mini_shazam:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"

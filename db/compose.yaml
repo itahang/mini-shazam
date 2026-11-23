@@ -1,0 +1,4 @@
+services:
+  post-db:
+    image: postgres:18
+    
